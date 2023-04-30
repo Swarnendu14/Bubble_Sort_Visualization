@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>BubbleSort Visualization</title>
+</head>
+<body>
+    <div class="left-part">
+        <h1>BUBBLE SORT Visualization</h1>
+        <p class="time">
+            <strong>Best Case</strong> Time Complexity - O(n)<br>
+            <strong>Average Case</strong> Time Complexity - O(n<sup>2</sup>)<br>
+            <strong>Worst Case</strong> Time Complexity - O(n<sup>2</sup>)
+        </p>
+        <button class="start">Start</button>
+        <p class="caution"><strong>CAUTION</strong> - <br>i)Please don't click <strong>"START"</strong> button multiple time (Press it ONE time).<br>ii)After finished the process please refresh the page </p>
+    </div>
+    <div class="main-part">
+        <p id="para"></p>
+        <div class="visual"></div>
+        <div class="logic">
+            <div class="condition">
+                <div id="num1" class="num"></div>
+                <p class="symbol">></p>
+                <div id="num2" class="num"></div>
+            </div>
+            <p id="result"></p>
+            <p id="action"></p>
+        </div>
+    </div>
+    <script src="./sorting.js"></script>
+</body>
+</html>
